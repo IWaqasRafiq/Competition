@@ -3,13 +3,16 @@
     font-weight: bold;
 }
 .imgparent {
-    position: relative;
+    /* position: relative;
     top: 0;
-    left: 0;
+    left: 0; */
+    display: flex;
+    flex-direction: column;
+    
 
 
   }
-  .image01 {
+  /* .image01 {
     position: relative;
     
   }
@@ -21,7 +24,4 @@
   .image03 {
     position: absolute;
     margin-left: 100px;
-  }
-  .listimg{
-    
-  }
+  } */
