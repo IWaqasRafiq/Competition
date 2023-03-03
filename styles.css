@@ -1,0 +1,27 @@
+.navbar-nav{
+    margin-left: 50px;
+    font-weight: bold;
+}
+/* .imgparent {
+    position: relative;
+    top: 0;
+    left: 0;
+
+
+  } */
+  .image01 {
+    position: relative;
+    
+  }
+  .image02 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .image03 {
+    position: absolute;
+    margin-left: 100px;
+  }
+  .listimg{
+    
+  }
