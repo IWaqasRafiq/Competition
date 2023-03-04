@@ -2,26 +2,38 @@
     margin-left: 50px;
     font-weight: bold;
 }
-.imgparent {
-    /* position: relative;
-    top: 0;
-    left: 0; */
-    display: flex;
-    flex-direction: column;
-    
+.bg-img{
+  background-image: url(./Img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pepsi-nitro{
+  display: flex;
+  flex-direction: row;
+  /* padding: 6vw 0; */
 
+}
+.pepsi-nitro-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+.pepsi-nitro-child:first-of-type img{
+  width: 27vw;
 
-  }
-  /* .image01 {
-    position: relative;
-    
-  }
-  .image02 {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-  }
-  .image03 {
-    position: absolute;
-    margin-left: 100px;
-  } */
+}
+.pepsi-nitro-child:last-of-type img {
+  width: 36vw;
+}
+.pepsi-nitro-child button {
+  margin: 0 0 6vw 0px;
+
+}
+h2{
+  color: aliceblue !important;
+  font-weight: bold !important;
+}
