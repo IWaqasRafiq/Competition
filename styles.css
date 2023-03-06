@@ -1,8 +1,9 @@
-.navbar-nav{
-    margin-left: 50px;
-    font-weight: bold;
+.navbar-nav {
+  margin-left: 50px;
+  font-weight: bold;
 }
-.bg-img{
+
+.bg-img {
   background-image: url(./Img/Background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,30 +11,143 @@
   display: flex;
   justify-content: center;
 }
-.pepsi-nitro{
+
+.pepsi-nitro {
   display: flex;
   flex-direction: row;
   /* padding: 6vw 0; */
 
 }
-.pepsi-nitro-child{
+
+.pepsi-nitro-child {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 40px;
 }
-.pepsi-nitro-child:first-of-type img{
+
+.pepsi-nitro-child:first-of-type img {
   width: 27vw;
 
 }
+
 .pepsi-nitro-child:last-of-type img {
   width: 36vw;
 }
+
 .pepsi-nitro-child button {
   margin: 0 0 6vw 0px;
 
 }
-h2{
+
+h2 {
   color: aliceblue !important;
   font-weight: bold !important;
+}
+
+/* .promotion.mm-002 .promotion__video-cta-ani-override,
+        .promotion__video-cta-no-ani {
+          font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: .875rem;
+          z-index: 1;
+          margin: 0;
+        } */
+
+
+/* .promotion.mm-002 .promotion__video-wrapper {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin-top: 1rem
+        } */
+/* 
+        .promotion.mm-002 .promotion__video {
+          position: relative;
+          height: initial;
+          min-height: initial;
+          position: relative;
+          width: 100%;
+          margin: initial;
+        } */
+
+/* .promotion.mm-002 .promotion__watch-now-container {
+          position: absolute;
+          text-align: center;
+        }
+
+        .promotion.mm-002 .promotion__video {
+          cursor: default;
+        }
+
+        .promotion.mm-002 .promotion__video img {
+          position: initial;
+          top: initial;
+          left: initial;
+        } */
+
+.better-with-pepsi-promo__video-container__video_title {
+          width: 100%;
+          text-align: center;
+          padding: 5px;
+          background: #1437bf;
+          line-height: 26px;
+          display: inline-block;
+          height: 40px;
+        }
+
+        .better-with-pepsi-promo__video-container__video_title span {
+          font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif; }
+.splide__list{
+  list-style-type: none;
+}
+
+
+/* end video container */
+
+/* .better-with-pepsi-promo {
+          position: relative;
+          width: 100%;
+          min-height: 177vw;
+          max-height: 177vw;
+        } */
+
+.better-with-pepsi-promo__bg {
+  /* background-image: url(./Img/burger\ better\ with\ pepsi.jpg); */
+  background-repeat: no-repeat;
+  background-color: #265cc5;
+  position: absolute;
+  /* top: 0; */
+  height: 100%;
+  background-size: 283vw;
+  /* background-position: 65% 0; */
+  width: 100%;
+}
+
+.better-with-pepsi-promo__video-container {
+  background: #265cc5;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.better-with-pepsi-promo__tagline {
+  width: 79%;
+  position: absolute;
+  right: 0;
+  bottom: 11%;
+
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+.splide__pagination {
+  bottom: -1.8em !important;
+}
+
+.video-thumb-overlay-container {
+  width: 100%;
 }
