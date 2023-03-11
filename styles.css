@@ -100,7 +100,7 @@ h2 {
 }
 
 .bg-img-mango {
-  background-image: url("../img/mango-bg.jpg");
+  background-image: url("./img/mango-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
