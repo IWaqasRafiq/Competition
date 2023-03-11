@@ -100,13 +100,25 @@ h2 {
 }
 
 .bg-img-mango {
-  display: block !important;
-  background-image: url(../Img/mango-bg.jpg);
-  background-repeat: no-repeat;
+  background-image: url("../img/mango-bg.jpg");
   background-size: cover;
-  position: absolute;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
+.pepsi-mango{
+  /* position: absolute; */
+  right: 0;
+  width: 63%; 
+}
+.first-headline{
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+}
+
+
   /* height: 667px; */
   /* background: #2c629d url(./Img/mango-bg.jpg) no-repeat ;
   background-size: cover;
